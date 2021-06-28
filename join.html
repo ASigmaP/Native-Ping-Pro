@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ping PRO | Join</title>
+	<link rel="stylesheet" href="web1.css">
+</head>
+<body>
+	<div class="container">
+		<a href="home.html" class="logo">@</a>
+		<div class="header">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="testi.html">Work</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="join.html">Join</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<hr width="80%">
+			<h2>Tell us about yourself</h2>
+			<form name="myForm" action="signupClient.php" method="post">
+			<div class="homeTab">
+		    <table>
+		        <tbody><tr>
+		            <td width="20%">Username</td>
+		            <td width="5%">:</td>
+		            <td width="70%"><input type="text" name="IDUser" size="35" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Password</td>
+		            <td>:</td>
+		            <td><input type="password" name="pwdUser" size="35" required=""></td>
+		        </tr>
+
+		        <tr>
+		            <td>NIK</td>
+		            <td>:</td>
+		            <td><input type="text" name="NIK" size="17" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Nama Lengkap</td>
+		            <td>:</td>
+		            <td><input type="text" name="nmClient" size="35" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Jenis Kelamin</td>
+		            <td>:</td>
+		            <td><input type="radio" name="JK" value="p" checked="">Pria
+		            <input type="radio" name="JK" value="w">Wanita</td>
+		        </tr>
+		        <tr>
+		            <td valign="top">Alamat</td>
+		            <td valign="top">:</td>
+		            <td><textarea name="alamat" rows="5" cols="27"></textarea></td>
+		        </tr>
+		        <tr>
+		            <td>No HP</td>
+		            <td>:</td>
+		            <td><input type="text" name="noHP" size="13"></td>
+		        </tr></tbody>
+		    </table>
+		</div>
+		    <input type="submit" value="Sign Up">
+		    <input type="reset" value="Reset">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

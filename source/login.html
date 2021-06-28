@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ping PRO | Login</title>
+	<link rel="stylesheet" href="web1.css">
+</head>
+<body>
+	<div class="container">
+		<a href="home.html" class="logo">@</a>
+		<div class="header">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="testi.php">Testimoni</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="join.html">Join</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<hr width="80%">
+			<h2>Login here</h2>
+			<form name="myForm" action="loginClient.php" method="post">
+			<div class="homeTab">
+		    <table>
+		        <tbody><tr>
+		            <td width="20%">Username</td>
+		            <td width="5%">:</td>
+		            <td width="70%"><input type="text" name="IDUser" size="35" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Password</td>
+		            <td>:</td>
+		            <td><input type="password" name="pwdUser" size="35" required=""></td>
+		        </tr></tbody>
+		    </table>
+		</div>
+		    <input type="submit" value="Login">
+		    <input type="reset" value="Reset">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

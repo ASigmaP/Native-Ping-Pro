@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Box Model</title>
+	<link rel="stylesheet" href="Home.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="judul">Pengembangan Aplikasi WEB</h1>
+			<ul>
+				<li><a href="#">Pegawai</a></li>
+				<li><a href="HomeformDep.html">Departemen</a></li>
+				<li><a href="showPeg.php">Tabel Pegawai</a></li>
+				<li><a href="showDep.php">Tabel Departemen</a></li>
+
+			</ul>
+		</div>
+		<div class="content">
+			<hr width="80%">
+			<h2>FORM DATA PEGAWAI</h2>
+			<form name="myForm" action="submitPegawai.php" method="post">
+			<div class="homeTab">
+		    <table>
+		        <tbody><tr>
+		            <td width="20%">Nama Depan</td>
+		            <td width="5%">:</td>
+		            <td width="70%"><input type="text" name="nama_depan" size="35" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Nama Belakang</td>
+		            <td>:</td>
+		            <td><input type="text" name="nama_belakang" size="35" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Tanggal Lahir</td>
+		            <td>:</td>
+		            <td><input type="date" name="tanggal_lahir"></td>
+		        </tr>
+		        <tr>
+		            <td>Jenis Kelamin</td>
+		            <td>:</td>
+		            <td><input type="radio" name="jenis_kelamin" value="p" checked="">Pria
+		            <input type="radio" name="jenis_kelamin" value="w">Wanita</td>
+		        </tr>
+		        <tr>
+		            <td valign="top">Alamat</td>
+		            <td valign="top">:</td>
+		            <td><textarea name="alamat" rows="7" cols="35"></textarea></td>
+		        </tr>
+		        <tr>
+		            <td>Gaji</td>
+		            <td>:</td>
+		            <td><input type="text" name="gaji" size="20"></td>
+		        </tr></tbody>
+		    </table>
+		</div>
+		    <input type="submit" value="Submit">
+		    <input type="reset" value="Reset">
+			</form>
+			<!-- <form name="myForm" action="editPegPOST.html" method="get">
+		    <input type="submit" value="Edit">
+		    </form> -->
+		</div>
+		
+		<div class="footer">
+			<p class="copy">Copyright 2017&copyNiky Ayu Lestari</p>
+		</div>
+	</div>
+</body>
+</html>

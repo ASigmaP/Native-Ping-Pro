@@ -1,0 +1,155 @@
+body {
+	font : 16px/28px lucida fax, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+.container {
+	margin: auto;
+	background-color: #fff;
+	height: 640px;
+}
+
+.logo {
+	width: 550px;
+	height: 138px;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 8px;
+	left: 20px;
+}
+
+.me {
+	width: 31px;
+	height: 31px;
+	background-image: url(img/sme.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 60px;
+	right: 75px;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 6px;
+	padding-right: 100px;
+	text-align: right;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #0836ff;
+	padding: 3px;
+}
+
+.home {
+	height: 534px;
+	background-image: url(img/home1.jpg);
+	background-size: cover;
+	background-position: 0 -250px;
+}
+
+.service {
+	height: 534px;
+	background-image: url(img/service2.png);
+	background-size: cover;
+}
+
+.about {
+	height: 534px;
+	background-image: url(img/team.png);
+	background-size: cover;
+}
+.header a:hover {
+	background-color: black;
+	color: white;
+}
+
+.content {
+	padding: 5px;
+	margin-left: 55px;
+	margin-right: 55px;
+	font-size: 14px;
+}
+
+.content .homeTab {
+	padding-left: 35%;
+	margin-bottom: 10px;
+}
+
+.content .tombol {
+	margin-left: 8%;
+}
+
+.content .showPeg {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 10px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.content h2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.content .dash {
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+input[type=submit] {
+    width: 13%;
+    background-color: #339cf3;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 444px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+input[type=reset]:hover {
+    background-color: black;
+    color: white;
+}
+
+input[type=reset] {
+    width: 13%;
+    background-color: #339cf3;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}

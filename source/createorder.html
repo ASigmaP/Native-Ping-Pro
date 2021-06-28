@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ping PRO | Create</title>
+	<link rel="stylesheet" href="web1.css">
+</head>
+<body>
+	<div class="container">
+		<a href="dashboard.html" class="logo">@</a>
+		<div class="header">
+			<ul>
+				<li><a href="dashboard.html">Procedure</a></li>
+				<li><a href="createorder.html">Create</a></li>
+				<li><a href="showproject.php">Project</a></li>
+				<li><a href="home.html">Logout</a></li>
+				<li><a href="profile.php" class="me"></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<hr width="80%">
+			<h2>Share your problem with us...</h2>
+			<form name="myForm" action="createorder.php" method="post">
+			<div class="homeTab">
+		    <table>
+		        <tbody><tr>
+		            <td width="20%">Judul Project</td>
+		            <td width="3%" align="center">:</td>
+		            <td width="75%"><input type="text" name="nmProj" size="30" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Domain</td>
+		            <td width="3%" align="center">:</td>
+		            <td><select name="domain">
+		            	<option value="Web Application">Web App</option>
+		            	<option value="IOS Application">IOS App</option>
+		            	<option value="Android Application">Android App</option>
+		            </select></td>
+		        </tr>
+		        <tr>
+		            <td width="20%">Target Pengguna</td>
+		            <td width="3%" align="center">:</td>
+		            <td width="75%"><input type="text" name="targetProj" size="30" required=""></td>
+		        </tr>
+		        <tr>
+		            <td valign="top">Tujuan</td>
+		            <td width="3%" align="center" valign="top">:</td>
+		            <td><textarea name="tujuanProj" rows="4" cols="23" required=""></textarea></td>
+		        </tr>
+		        <tr>
+		            <td valign="top">Fitur yang diinginkan</td>
+		            <td width="3%" align="center" valign="top">:</td>
+		            <td><textarea name="fiturProj" rows="5" cols="23" required=""></textarea></td>
+		        </tr>
+		        <tr>
+		            <td width="20%">Link Prototype</td>
+		            <td width="3%" align="center">:</td>
+		            <td width="75%"><input type="text" name="protoProj" size="30"></td>
+		        </tr>
+		    </tbody>
+		    </table>
+		</div>
+		    <input type="submit" value="Send">
+		    <input type="reset" value="Reset">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

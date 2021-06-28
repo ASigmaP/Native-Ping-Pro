@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ping PRO | Create</title>
+	<link rel="stylesheet" href="web1.css">
+</head>
+<body>
+	<div class="container">
+		<a href="dashboard.html" class="logo">@</a>
+		<div class="header">
+			<ul>
+				<li><a href="dashboard.html">Procedure</a></li>
+				<li><a href="createorder.html">Create</a></li>
+				<li><a href="showproject.php">Project</a></li>
+				<li><a href="home.html">Logout</a></li>
+				<li><a href="profile.php" class="me"></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<hr width="80%">
+			<h2>Share your problem with us...</h2>
+			<form name="myForm" action="createorder.php" method="post">
+			<div class="homeTab">
+		    <table>
+		        <tbody><tr>
+		            <td width="20%">Judul Project</td>
+		            <td width="5%">:</td>
+		            <td width="70%"><input type="text" name="nmProj" size="35" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Domain</td>
+		            <td>:</td>
+		            <td><select name="domain">
+		            	<option value="Web Application">Web App</option>
+		            	<option value="IOS Application">IOS App</option>
+		            	<option value="Android Application">Android App</option>
+		            </select></td>
+		        </tr>
+		        <tr>
+		            <td valign="top">Deskripsi</td>
+		            <td valign="top">:</td>
+		            <td><textarea name="deskProj" rows="10" cols="27"></textarea></td>
+		        </tr></tbody>
+		    </table>
+		</div>
+		    <input type="submit" value="Send">
+		    <input type="reset" value="Reset">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

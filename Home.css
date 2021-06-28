@@ -1,0 +1,103 @@
+body {
+	font : 15px/28px cambria math, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-family: agency fb;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.content {
+	padding: 5px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.content .homeTab {
+	padding-left: 20%;
+	margin-bottom: 10px;
+}
+
+.ontent .showPeg {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.content h2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.content p {
+	text-align: justify;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: salmon;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=reset] {
+    width: 20%;
+    background-color: salmon;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer {
+	background-color: lightskyblue;
+	padding: 1px;
+	margin-top: 30px;
+}
+
+.footer .copy {
+	color: black;
+	text-align: center;
+	font-size: 14px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Box Model</title>
+	<link rel="stylesheet" href="Home.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="judul">Pengembangan Aplikasi WEB</h1>
+			<ul>
+				<li><a href="HomeformPeg.html">Pegawai</a></li>
+				<li><a href="#">Departemen</a></li>
+				<li><a href="showPeg.php">Tabel Pegawai</a></li>
+				<li><a href="showDep.php">Tabel Departemen</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<hr width="80%">
+			<h2>FORM DATA DEPARTEMEN</h2>
+
+			<form name="myForm" action="submitDepartemen.php" method="post">
+			<div class="homeTab">
+		    <table>
+		        <tbody><tr>
+		            <td width="30%">Kode Departemen</td>
+		            <td width="5%">:</td>
+		            <td width="60%"><input type="text" name="kode_departemen" size="30" required=""></td>
+		        </tr>
+		        <tr>
+		            <td>Nama Departemen</td>
+		            <td>:</td>
+		            <td><input type="text" name="nama_departemen" size="30"></td>
+		        </tr>
+		        <tr>
+		            <td>ID Manajer</td>
+		            <td>:</td>
+		            <td width="60%"><input type="text" name="id_manajer" size="10"></td>
+
+		        </tr>
+		        <tr>
+		            <td>Tanggal Mulai Manajer</td>
+		            <td>:</td>
+		            <td><input type="date" name="tanggal_mulai_manajer"></td>
+		        </tr></tbody>
+		    </table>
+		</div>
+		    <input type="submit" value="Submit">
+		    <input type="reset" value="Reset">
+		    </form>
+		
+		<div class="footer">
+			<p class="copy">Copyright 2017&copyNiky Ayu Lestari</p>
+		</div>
+	</div>
+</body>
+</html>
